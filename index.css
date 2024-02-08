@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+#cabecalho{
+    height: 100px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+
+#calculadora{
+    display: flex;
+    justify-content: center;
+
+}
+.menu{
+    margin-left: 180px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+}
