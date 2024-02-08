@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div id="cabecalho">
+        <h1 id="calculadora">Calculadora</h1>
+        <a href="" class="menu">Adição</a>
+        <a href="" class="menu">Subtrção</a>
+        <a href="" class="menu">multiplicação</a>
+        <a href="" class="menu">Equações 1,2</a>
+        <a href="" class="menu">Areas</a>
+    </div>
+    <div id="Adicao">
+        <h1 id="adicao">Adição</h1>
+        <input type="number" name="numero1" id="numero1"> +
+        <input type="number" name="numero2" id="numero2"> = <p id="html1"></p>
+        
+     </div>
+     <div><button onclick="calcular()">Calcular</button></div>
+     <div id="subtracao">
+        <h1 id="subtracao-txt">Subtração</h1>
+        <input type="number" name="numero1" id="numero1-sub"> -
+        <input type="number" name="numero2" id="numero2-sub"> =
+        <p id="html2"></p>
+     </div>
+     <div><button onclick="calcularsub()">Calcular</button></div>
+     
+     <div id="multiplicação">
+        <h1 id="multiplicação-txt">multiplicação</h1>
+        <input type="number" name="numero1" id="numero1-multi"> *
+        <input type="number" name="numero2" id="numero2-multi"> =
+        <p id="html3"></p>
+     </div>
+     <div><button onclick="calcularmulti()">Calcular</button></div>
+     <div id="divisao">
+        <h1 id="divisao-txt">Divisão</h1>
+        <input type="number" name="numero1" id="numero1-div"> /
+        <input type="number" name="numero2" id="numero2-div"> =
+        <p id="html4"></p>
+     </div>
+     <div><button onclick="calculardiv()">Calcular</button></div>
+     <div id="caracter"><h1>Nome completo</h1>
+        <input type="text" name="nome" id="nome"> 
+        <input type="text" name="sobrenome" id="sobrenome">
+        <p id="nomecompletos"></p>
+    </div>
+    <div><button onclick="nomecompletoa()">Enviar</button></div>
+    <div id="primeirograu">
+        <h1 id="equacao1">Equação do primeiro grau</h1>
+        <input type="number" name="x" id="x" placeholder="ax"> +
+        <input type="number" name="b" id="b" placeholder="b"> =
+        <input type="number" name="c" id="c" placeholder="c">
+    </div>
+    <p id="a"></p>
+    <div><button onclick="funcaoprimeiro()">Calcular</button></div>
+    <div id="primeirograu-">
+        <input type="number" name="x" id="x-" placeholder="ax"> -
+        <input type="number" name="b" id="b-" placeholder="b"> =
+        <input type="number" name="c" id="c-" placeholder="c">
+    </div>
+    <p id="bn"></p>
+    <div><button onclick="funcaoprimeirox()">Calcular</button></div>
+
+    <title>Curso JavaScript Progressivo</title>
+    Equação do 2o grau: ax² + bx + c = 0  <br />
+ Coeficiente a:<input id="num1" type="number"> <br />
+ Coeficiente b:<input id="num2" type="number"> <br />
+ Coeficiente c: <input id="num3" type="number"> <br />
+ <button onclick="raiz()">Calcular raízes</button><br />
+
+ <div id='resposta'></div>
+
+ <div>
+    <h1>Calcular a area do quadrado</h1>
+ </div>
+ <div>
+    <input type="number" name="area" id="area" placeholder="lado em cm">
+ </div>
+ <div>
+    <p id="resultadoquadrado"></p>
+ </div>
+ <button onclick="quadrado()">Calcular</button>
+ <div>
+    <h1>Calcular a area do triangulo</h1>
+ </div>
+ <div>
+    <input type="number" name="base" id="base" placeholder="base">
+    <input type="number" name="altura" id="altura" placeholder="altura">
+ </div>
+ <div>
+    <p id="areadotriangulo"></p>
+ </div>
+ <button onclick="triangulo()">Calcular</button>
+ <div>
+    <h1>Calcular a area do circulo</h1>
+ </div>
+ <div>
+    <input type="number" name="circulo" id="areacirculo">
+ </div>
+ <div><p id="circulo"></p></div>
+ <button onclick="areacirculo()">Calcular</button>
+        <script src="calculadora.js"></script>
+    
+</body>
+</html>
