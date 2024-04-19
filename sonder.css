@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=TT+Commons+Pro:wght@100&display=swap');
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  position: relative;
+  font-family: 'TT Commons Pro', sans-serif;
+}
+
+#pagina-principal{
+  background-color: black;
+}
+
+/*cabeçalho*/
+
+#cabecalho{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  
+}
+.menu {
+  text-decoration: none;
+  color: white;
+  font-family: 'TT Commons Pro', sans-serif;
+  
+}
+#bem-vindo{
+  display: flex;
+  justify-content: center;
+}
+
+#sonder{
+ 
+}
+
+#sonder-logo{
+  height: 70px;
+  width: 70px;
+  position: relative;
+  right: 200px;
+}
+
+#lupa{
+  position: relative;
+  left: 250px;
+}
+
+#lupa-img{
+  height: 70px;
+  width: 70px;
+}
+
+#login{
+  position: relative;
+  left: 200px;
+}
+#login-img{
+  
+  height: 33px;
+  width: 33px;
+}
+
+/*Pagina principal*/
+
+#text-main{
+  font-family: 'TT Commons Pro', sans-serif;
+  font-size: 70px;
+  position: absolute;
+  left: 70px;
+  top: 200px;
+  color: white;
+}
+
+#botao-comprar{
+  font-family: 'TT Commons Pro', sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 30px;
+  position: relative;
+  left: 70px;
+  top: 350px;
+}
+
+#foto-lancamento{
+  display: flex;
+  align-items: center;
+}
+
+#frente{
+  height: 330px;
+  width: 300px;
+  background-color: white;
+  position: relative;
+  left: 750px;
+  top: 150px;
+  overflow: visible;
+  
+}
+
+#atras{
+  height: 330px;
+  width: 300px;
+  background-color: white;
+  position: relative;
+  left: 800px;
+  top: 150px;
+}
+
+#frente-img{
+  height: 330px;
+  width: 300px;
+  position: relative;
+  left: -20;
+  top: -20;
+}
+
+#costa-img{
+  height: 330px;
+  width: 300px;
+}
+
