@@ -9,7 +9,7 @@ body {
   font-weight: 300;
   box-sizing: border-box;
   min-height: 100vh; 
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #pagina-principal {
