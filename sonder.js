@@ -9,7 +9,7 @@ function pesquisar() {
 
   lupaII.style.display = 'block'
 
-  lupa.style.display = 'none'
+  lupa.style.display = 'block'
 
   fechar.style.display = 'block'
   procurar.style.display = 'block'
