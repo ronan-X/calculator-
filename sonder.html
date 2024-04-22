@@ -16,14 +16,40 @@
 
         <!--Menu-->
         <a href="" class="menu" id="bem-vindo">Bem-vindo</a>
-        <a href="" class="menu" id="catalogo">Catalogo</a>
+        <div>
+          <a href="" class="menu" id="catalogo">Catálogo</a>
+        </div>
         <a href="" class="menu" id="acessorios">Acessorios</a>
         <a href="" class="menu" id="sobre-nos">Sobre-nos</a>
 
         <!--Lupa-->
-        <a href="" id="lupa"
-          ><img src="imagens/lupa.png" alt="" id="lupa-img"
-        /></a>
+        <button id="lupa" onclick="pesquisar()">
+          <img src="imagens/lupa.png" alt="" id="lupa-img" />
+        </button>
+
+        <div id="procurar-div">
+          <input
+            type="text"
+            name=""
+            id="procurar"
+            placeholder="Procurar . . ."
+          />
+        </div>
+
+        <div class="fechar">
+          <img
+            src="imagens/lupa_preta-removebg-preview.png"
+            alt=""
+            id="lupa-2"
+          />
+          <button id="fechar" onclick="fechar()">
+            <img
+              src="imagens/images-removebg-preview.png"
+              alt=""
+              id="logofechar"
+            />
+          </button>
+        </div>
 
         <!--Login-->
         <a href="" id="login"
@@ -53,6 +79,8 @@
         </div>
       </div>
     </div>
+    <script src="sonder.js"></script>
   </body>
 </html>
+
 
