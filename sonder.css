@@ -36,8 +36,8 @@ body{
   justify-content: center;
 }
 
-#sonder{
- 
+#dropdown{
+  
 }
 
 #sonder-logo{
@@ -50,11 +50,72 @@ body{
 #lupa{
   position: relative;
   left: 250px;
+  border: none;
+  appearance: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: block;
+  width: 10px;
 }
 
 #lupa-img{
   height: 70px;
   width: 70px;
+}
+
+#procurar-div{
+  position: absolute;
+  top: 100px;
+  width: 1470px;
+  display: none;
+  border: 0;
+}
+
+#procurar::placeholder{
+  font-family: 'TT Commons Pro', sans-serif;
+  color: darkgrey;
+  position:absolute;
+  top: 20px;
+  left: 80px;
+  font-size: 20px;
+  margin: 0%;
+}
+
+#procurar{
+  height: 60px;
+  width: 1393px;
+  font-size: 25px;
+  position: absolute;
+  padding-left: 80px;
+  font-family: 'TT Commons Pro', sans-serif;
+  outline: none;
+}
+
+#lupa-2{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 97px;
+  left: 10px;
+  display: none;
+}
+
+#logofechar{
+  height: 55px;
+  width: 70px;
+  position: relative;
+  bottom: 13px;
+  right: 50px;
+}
+
+#fechar{
+  position: absolute;
+  background-color: inherit;
+  left: 1400px;
+  top: 120px;
+  border: none;
+  cursor: pointer;
+  display: none;
 }
 
 #login{
@@ -126,4 +187,6 @@ body{
   height: 330px;
   width: 300px;
 }
+
+
 
