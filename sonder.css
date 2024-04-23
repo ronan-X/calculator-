@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=TT+Commons+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
 
 
 body {
@@ -10,6 +12,8 @@ body {
   box-sizing: border-box;
   min-height: 100vh; 
   overflow-x: hidden;
+  
+
 }
 
 #pagina-principal {
@@ -34,7 +38,8 @@ body {
 .menu {
   text-decoration: none;
   color: white;
-  font-family: 'TT Commons Pro', sans-serif;
+  font-family: "Roboto Mono", monospace;
+  
   
 }
 #bem-vindo{
@@ -79,7 +84,10 @@ body {
 }
 
 #procurar::placeholder{
-  font-family: 'TT Commons Pro', sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   color: darkgrey;
   position:absolute;
   top: 20px;
@@ -115,7 +123,7 @@ body {
   right: 50px;
 }
 
-#fechar{
+ #fechar{
   position: absolute;
   background-color: inherit;
   left: 1400px;
@@ -138,23 +146,34 @@ body {
 /*Pagina principal*/
 
 #text-main{
-  font-family: 'TT Commons Pro', sans-serif;
-  font-size: 70px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
   position: absolute;
   left: 70px;
   top: 200px;
   color: white;
+  font-weight: 100px;
+  
 }
 
 #botao-comprar{
-  font-family: 'TT Commons Pro', sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
-  color: white;
+  background-color: white;
+  color: black;
   border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
   font-size: 30px;
   position: relative;
   left: 70px;
-  top: 350px;
+  top: 400px;
 }
 
 #foto-lancamento{
@@ -162,15 +181,23 @@ body {
   align-items: center;
 }
 
+
+
 #frente{
   height: 330px;
   width: 300px;
   background-color: white;
   position: relative;
   left: 750px;
-  top: 150px;
+  top: 140px;
   overflow: visible;
   
+}
+
+#frente-img{
+  position: relative;
+  bottom: 20px;
+  right: 20px;
 }
 
 #atras{
@@ -179,20 +206,76 @@ body {
   background-color: white;
   position: relative;
   left: 800px;
-  top: 150px;
+  top: 140px;
 }
 
 #frente-img{
   height: 330px;
   width: 300px;
   position: relative;
-  left: -20;
-  top: -20;
+  
+  bottom: 20px;
+  right: 20px;
 }
 
 #costa-img{
   height: 330px;
   width: 300px;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+#produto-popular{
+  background-color: white;
+  height: 600px;
+}
+#camisa-popular-imagem{
+  height: 300px;
+  width: 300px;
+}
+
+#tamanho-popular-div{
+  width: 180px;
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+  height: 35px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  
+}
+
+#titulo-tamanho-popular{
+  position: relative;
+  left: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+
+#select-tamanho-popular{
+  border: none;
+  position: relative;
+  left: 15px;
+  width: 75px;
+  font-family: "Roboto Mono", monospace;
+  
+}
+
+.option-popular{
+  right: 30px;
+  
+}
+
+#comprar-agora-popular{
+  position: relative;
+  bottom: 100px;
+  left: 500px;
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  height: 35px;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 
