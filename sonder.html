@@ -16,8 +16,16 @@
 
         <!--Menu-->
         <a href="" class="menu" id="bem-vindo">Bem-vindo</a>
-        <div>
-          <a href="" class="menu" id="catalogo">Catálogo</a>
+        <div id="div-catalogo">
+          <ul>
+          <li class="menu" id="catalogo">
+            <ul>
+              Catalogo
+              <li class="genero-catalogo">Masculino</li>
+              <li class="genero-catalogo">Feminino</li>
+            </ul>
+            </ul>
+          </li>
         </div>
         <a href="" class="menu" id="acessorios">Acessorios</a>
         <a href="" class="menu" id="sobre-nos">Sobre-nos</a>
@@ -83,7 +91,7 @@
 
     <div id="produto-popular">
       <h3 id="nome-camisa-popular">Nome da camisa</h3>
-      <h5>
+      <h6 id="descricao-produto-popular">
         Découvrez la doudoune Trapstar, parfaite fusion <br />
         de chaleur optimale et de style urbain. Conçue pour ceux valorisent le
         confort <br />
@@ -95,11 +103,11 @@
         <br />
         Faites de la doudoune <br />
         Trapstar votre signature cet hiver.
-      </h5>
+      </h6>
 
       <img src="imagens/camisa-frente.webp" alt="" id="camisa-popular-imagem" />
 
-      <h3>R$ 100,00</h3>
+      <h3 id="preco-popular">R$100,00</h3>
       <div id="tamanho-popular-div">
         <form action="#">
           <label for="" id="titulo-tamanho-popular">Tamanho:</label>
@@ -117,4 +125,5 @@
     <script src="sonder.js"></script>
   </body>
 </html>
+
 
