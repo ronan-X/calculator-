@@ -47,9 +47,16 @@ body {
   justify-content: center;
 }
 
-#dropdown{
-  
+
+
+#catalogo{
+  cursor: pointer;
 }
+
+
+
+
+
 
 #sonder-logo{
   height: 70px;
@@ -60,7 +67,7 @@ body {
 
 #lupa{
   position: relative;
-  left: 250px;
+  left: 200px;
   border: none;
   appearance: none;
   background-color: inherit;
@@ -135,7 +142,7 @@ body {
 
 #login{
   position: relative;
-  left: 200px;
+  left: 150px;
 }
 #login-img{
   
@@ -259,7 +266,8 @@ body {
   left: 15px;
   width: 75px;
   font-family: "Roboto Mono", monospace;
-  
+  outline: none;
+  cursor: pointer;
 }
 
 .option-popular{
@@ -278,6 +286,23 @@ body {
   border: 1px solid black;
 }
 
+#tamanho-popular-div::after{
+background: red;
+}
+
+#preco-popular{
+  color: darkgrey;
+  font-family: "Roboto Mono", monospace;
+}
+
+  #descricao-produto-popular{
+    font-family: "Roboto Mono", monospace;
+  }
+
+
+  #nome-camisa-popular{
+    font-family: "Roboto Mono", monospace;
+  }
 
 
 
