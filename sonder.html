@@ -10,57 +10,54 @@
     <div id="pagina-principal">
       <header id="cabecalho">
         <!--logo-->
-        <a href="" id="sonder"
-          ><img src="imagens/logo.png" id="sonder-logo" alt=""
-        /></a>
+
+        <img src="imagens/logo.png" id="sonder-logo" alt="" />
 
         <!--Menu-->
         <a href="" class="menu" id="bem-vindo">Bem-vindo</a>
-        <div id="div-catalogo">
-          <ul>
-          <li class="menu" id="catalogo">
-            <ul>
-              Catalogo
-              <li class="genero-catalogo">Masculino</li>
-              <li class="genero-catalogo">Feminino</li>
-            </ul>
-            </ul>
-          </li>
-        </div>
+        <a href="" class="menu" id="catalogo">Catalogo</a>
         <a href="" class="menu" id="acessorios">Acessorios</a>
         <a href="" class="menu" id="sobre-nos">Sobre-nos</a>
 
         <!--Lupa-->
-        <button id="lupa" onclick="pesquisar()">
-          <img src="imagens/lupa.png" alt="" id="lupa-img" />
+
+        <button href="" id="pesquisar-img-div" onclick="abriraba()">
+          <img
+            src="imagens/lupa.png"
+            alt=""
+            onclick="pesquisar()"
+            id="pesquisar-img"
+          />
         </button>
 
-        <div id="procurar-div">
-          <input
-            type="text"
-            name=""
-            id="procurar"
-            placeholder="Procurar . . ."
-          />
-        </div>
+        <!--pesquisar aba-->
 
-        <div class="fechar">
+        <input
+          type="text"
+          name=""
+          id="pesquisar-aba"
+          class="pesquisar-aba-tudo"
+          placeholder="Pesquisar ..."
+        />
+
+        <img
+          src="imagens/lupa_preta-removebg-preview.png"
+          alt=""
+          id="lupa-preta"
+          class="pesquisar-aba-tudo"
+        />
+
+        <a onclick="fecharaba()" id="fechar-aba">
           <img
-            src="imagens/lupa_preta-removebg-preview.png"
+            src="imagens/images-removebg-preview.png"
             alt=""
-            id="lupa-2"
+            id="fechar-aba-img"
+            class="pesquisar-aba-tudo"
           />
-          <button id="fechar" onclick="fechar()">
-            <img
-              src="imagens/images-removebg-preview.png"
-              alt=""
-              id="logofechar"
-            />
-          </button>
-        </div>
+        </a>
 
         <!--Login-->
-        <a href="" id="login"
+        <a href="#" id="login"
           ><img src="imagens/perfil.png" alt="" id="login-img"
         /></a>
       </header>
@@ -74,38 +71,65 @@
       </h1>
 
       <!--Botao comprar agora!-->
-      <a href="" id="botao-comprar">Comprar agora!</a>
+      <a href="#" id="botao-comprar">Comprar agora!</a>
 
       <!--lançamento frente-->
-
       <div id="foto-lancamento">
         <div id="frente">
           <img id="frente-img" src="imagens/camisa-frente.webp" alt="" />
         </div>
 
         <div id="atras">
-          <img id="costa-img" src="imagens/7.webp" alt="" />
+          <img id="atras-img" src="imagens/7.webp" alt="" />
         </div>
       </div>
     </div>
 
+    <!-- Produto Popular -->
     <div id="produto-popular">
       <h3 id="nome-camisa-popular">Nome da camisa</h3>
       <h6 id="descricao-produto-popular">
-        Découvrez la doudoune Trapstar, parfaite fusion <br />
-        de chaleur optimale et de style urbain. Conçue pour ceux valorisent le
-        confort <br />
-        sans sacrifier l'élégance, elle est l'alliée idéale contre le froid,
-        tout en <br />
-        affirmant un style distinctif avec le logo Trapstar emblématique. <br />
-        Idéale pour toutes <br />
-        vos activités, elle garantit liberté de mouvement et allure impeccable.
-        <br />
-        Faites de la doudoune <br />
-        Trapstar votre signature cet hiver.
+        Se você está procurando uma camisa <br />
+        que seja tanto confortável quanto <br />
+        elegante, temos exatamente o que <br />
+        você precisa! Nossa nova linha de <br />
+        camisas combina o melhor do design <br />
+        moderno com a qualidade de tecidos <br />
+        premium, criando uma peça que pode <br />
+        ser usada em qualquer ocasião.
       </h6>
 
-      <img src="imagens/camisa-frente.webp" alt="" id="camisa-popular-imagem" />
+      <img
+        src="imagens/images__57_-removebg-preview.png"
+        alt=""
+        id="camisa-popular-imagem"
+      />
+
+      <div id="selecao-camisa-popular">
+        <button href="" id="botao-camisa1" onclick="botaocamisa1()">
+          <img
+            src="imagens/images__57_-removebg-preview.png"
+            alt=""
+            id="camisa-popular-imagem-verde"
+          />
+        </button>
+
+        <button href="" id="botao-camisa2" onclick="botaocamisa2()">
+          <img
+            src="imagens/images__56_-removebg-preview.png"
+            alt=""
+            id="camisa-popular-imagem-branca"
+          />
+        </button>
+
+        <button href="#" id="botao-camisa3" onclick="botaocamisa3()">
+          <img
+            src="imagens/images__58_-removebg-preview.png"
+            alt=""
+            id="camisa-popular-imagem-azul"
+          />
+        </button>
+      </div>
 
       <h3 id="preco-popular">R$100,00</h3>
       <div id="tamanho-popular-div">
@@ -121,9 +145,31 @@
       </div>
 
       <input type="button" value="Comprar agora !" id="comprar-agora-popular" />
+      <a href="" id="carrinho-de-compra-popular"
+        ><img
+          src="imagens/carrinho_de_compra-removebg-preview.png"
+          alt=""
+          id="carrinho-de-comprar-popular-img"
+      /></a>
     </div>
-    <script src="sonder.js"></script>
+
+    <!-- drops -->
+    <div id="pagina-drop">
+      <h1 id="titulo-colecao">Coleção</h1>
+      <div id="todossdrops">
+        <div id="div-drop1" onmouseover="drop1()">
+          <div id="descricao-drop1"><h1 id="drop1">Drop1</h1></div>
+        </div>
+        <div class="div-drop2" class="drop23">
+          <h2 id="drop2" class="drop">Drop2</h2>
+        </div>
+        <div class="div-drop3" class="drop23">
+          <h2 id="drop3" class="drop" class="drop23">Drop3</h2>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="novo.js"></script>
 </html>
 
 
