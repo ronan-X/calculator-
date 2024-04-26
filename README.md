@@ -10,5 +10,5 @@ ulator-/assets/142173292/e1e2aa69-66a8-40af-998d-0eecaf950217)
 ![lupa](https://github.com/ronan-X/calculator-/assets/142173292/d910ab3f-68ef-4080-8880-3532b772d6d4)
 
 ![lupa_preta-removebg-preview](https://github.com/ronan-X/calculator-/assets/142173292/626122e2-d8ff-4914-b92d-f3fb420e374c)
-![perfil](https://github.com/ronan-X/calculator-/assets/142173292/7fd3056f-3b60-4be2-8b45-cf186a32ecf5)
+![perfil](https://github.com/ronan-X/calculator-/assets/142173292/e061eca8-fad0-4a7b-ac9a-a8598e64ab6e)
 
