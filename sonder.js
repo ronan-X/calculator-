@@ -1,31 +1,38 @@
-function pesquisar() {
-  var procurar = document.querySelector('#procurar-div')
+function abriraba() {
+  var abriraba = document.querySelector('.pesquisar-aba-tudo')
 
-  var fechar = document.querySelector('#fechar')
-
-  var lupa = document.querySelector('#lupa')
-
-  var lupaII = document.querySelector('#lupa-2')
-
-  lupaII.style.display = 'block'
-
-  lupa.style.display = 'block'
-
-  fechar.style.display = 'block'
-  procurar.style.display = 'block'
+  var fecharaba = document.querySelector('#fechar-aba')
+  fecharaba.style.display = 'block'
+  abriraba.style.display = 'block'
 }
 
-function fechar() {
-  var procurar = document.querySelector('#procurar-div')
+function fecharaba() {
+  var abriraba = document.querySelector('.pesquisar-aba-tudo')
 
-  var fechar = document.querySelector('#fechar')
+  abriraba.style.display = 'none'
+}
 
-  var lupa = document.querySelector('#lupa')
+function botaocamisa1() {
+  var camisapopular = document.querySelector('#camisa-popular-imagem')
 
-  lupa.style.display = 'block'
+  camisapopular.src = 'imagens/images__57_-removebg-preview.png'
+}
 
-  fechar.style.display = 'none'
+function botaocamisa2() {
+  var camisapopular = document.querySelector('#camisa-popular-imagem')
 
-  procurar.style.display = 'none'
+  camisapopular.src = 'imagens/images__56_-removebg-preview.png'
+}
+
+function botaocamisa3() {
+  var camisapopular = document.querySelector('#camisa-popular-imagem')
+
+  camisapopular.src = 'imagens/images__58_-removebg-preview.png'
+}
+
+function drop1() {
+  var descricaoproduto = document.querySelector('#descricao-drop1')
+
+  descricaoproduto.style.display = 'block'
 }
 
