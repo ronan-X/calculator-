@@ -32,6 +32,7 @@ body {
   border-radius: 50%;
   background-color: white;
   position: fixed;
+  z-index: 1;
 }
 
 /* Remova as posições absolutas desnecessárias ou ajuste conforme necessário */
@@ -72,13 +73,13 @@ body {
 
 #pesquisar-img {
     position: relative;
-    right: 100%;
+    right: 177%;
     
 }
 
 #pesquisar-img-div{
   position: absolute;
-  left: 20%;
+  left: 1%;
 }
 
 #lupa-img {
@@ -102,6 +103,8 @@ body {
 
 .pesquisar-aba-tudo{
   display: none;
+  font-family: "Roboto Mono", monospace;
+
 }
 
 #pesquisar-aba{
@@ -110,7 +113,7 @@ body {
   height: 65px;
   width: 92.8%;
   padding: 0% 0% 0% 7%;
-  
+  font-size: 20px;
   font-family: "Roboto Mono", monospace;
   outline: none;
 }
@@ -239,24 +242,24 @@ body {
     font-size: 20px;
     position: relative;
     left: 55%;
-    top: 35%;
+    top: 20%;
 }
 
 #descricao-produto-popular{
   font-family: "Roboto Mono", monospace;
   display: flex;
-  position: relative;
+  position: absolute;
   left: 55%;
-  top: 35%;
+  top: 120%;
 
 }
 
 #preco-popular{
   font-family: "Roboto Mono", monospace;
   color: darkgrey;
-  position: relative;
+  position: absolute;
   left: 55%;
-  bottom: 62%;
+  top: 138%;
 }
 
 #produto-popular{
@@ -267,14 +270,14 @@ body {
     height: 600px;
     width: 600px;
     position: relative;
-    bottom: 10%;
+    top: 10%;
   }
   
   #tamanho-popular-div{
     width: 220px;
     position: relative;
     left: 55%;
-    bottom: 65%;
+    bottom: 29%;
     height: 35px;
     border: 1px solid black;
     display: flex;
@@ -309,7 +312,7 @@ body {
   
   #comprar-agora-popular{
     position: relative;
-    bottom: 66%;
+    bottom: 30%;
     left: 55%;
     background-color: white;
     font-family: "Roboto Mono", monospace;
@@ -371,7 +374,7 @@ body {
     flex-direction: column;
     position: relative;
     left: 26%;
-    bottom: 60%;
+    bottom: 35%;
     
   }
 
@@ -381,7 +384,7 @@ body {
     border: 1px solid black;
     position: relative;
     left: 55.33%;
-    bottom: 63.70%;
+    bottom: 27.7%;
   }
 
   #botao-camisa1{
@@ -414,6 +417,7 @@ body {
 /* Barra de pesquisa */
 .pesquisar-aba-tudo-fechar{
   display: none;
+  
 }
   
  #pesquisar-img{
@@ -454,33 +458,53 @@ body {
 
   #div-drop1{
     height: 404px;
-    width: 350px;
-  background-color: white;
+    width: 320px;
+    background-color: white;
     position: absolute;
-    left: 25%;
+    left: 17%;
     top: 200%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
   
   }
 
+  #div-drop1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  }
+
+  #drop2-high{
+    height: 404px;
+    width: 320px;
+    position: relative;
+    
+  }
+
   .div-drop2{
-    height: 200px;
-    width: 380px;
+    height: 404px;
+    width: 320px;
     background-color: white;
     position: absolute;
-    left: 52%;
+    left: 40%;
     top: 200%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
   }
 
   .div-drop3{
-    height: 200px;
-    width: 380px;
+    height:404px;
+    width: 320px;
     background-color: white;
     position: absolute;
-    left: 52%;
-    top:230%;
+    left: 63%;
+    top:200%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .div-drop3:hover{
+    transform: scale(1.2);
+    z-index: 2;
   }
 
 
@@ -491,10 +515,15 @@ body {
     
   }
 
+  .div-drop2:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  }
+
   #descricao-drop1{
     background-color: black;
     height: 200px;
-    width: 350px;
+    width: 320px;
     position: absolute;
     top: 51%;
     
@@ -508,130 +537,308 @@ background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 78%);
   #drop1{
     position: relative;
     top: 40%;
-    left: 13%;
+    left: 5%;
    font-size: 60px;
    color: white;
   }
 
+  #drop1-img{
+    height: 404px ;
+    width: 320px;
+  }
+
   #descricao-drop2{
-    position: relative;
-    top: 58%;
+    height: 404px;
+    width: 320px;
+    position: absolute;
+    
     background: rgb(0,0,0);
     background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 78%);
+    z-index: 1;
+  }
+  #drop2{
+    position: relative;
+    top: 70%;
+    left: 5%;
+   font-size: 60px;
+   color: white;
+  }
+
+  #drop3{
+    position: relative;
+    top: 70%;
+    left: 5%;
+   font-size: 60px;
+   color: white;
   }
 
   #descricao-drop3{
-    position: relative;
-    top: 67.5%;
+    height: 404px;
+    width: 320px;
+    position: absolute;
+    bottom: 1%;
     background: rgb(0,0,0);
-background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 78%);
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 78%);
+    z-index: 1;
+  }
+  #drop3-high{
+    height: 404px;
+    width: 320px;
+    position: relative;
   }
 
  #div-acessorio{
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  font-family: "Roboto Mono", monospace;
  }
 
  
- #titulo-acessorios{
+ .acessorios-img{
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 285%;
-  left: 45%;
-  font-family: "Roboto Mono", monospace;
- }
-
- #acessorio1{
-  width: 180px;
-  height: 180px;
-  background-color: white;
-position: absolute;
-left: 20%;
-top: 305%;
-
-
-
- }
-
- #acessorio2{
-  width: 180px;
-  height: 180px;
-  background-color: white;
-position: absolute;
-left: 44.5%;
-top: 305%;
-
-
- }
-
- #acessorio3{
-  width: 180px;
-  height: 180px;
-  background-color: white;
-position: absolute;
-left: 70%;
-top: 305%;
+  align-items: center;
  }
 
  .descricao-acessorio{
-  color: darkgrey;
+  color: darkgray;
   position: relative;
-  bottom: 8%;
-  display: flex;
-  justify-content: center;
-  font-family: "Roboto Mono", monospace;
+  top: 3%;
+  left: 10%;
+  font-size: 15px;
+ }
 
+ #titulo-acessorios{
+  color: black;
+  position: absolute;
+  top: 280%;
+ }
+
+ .preco-acessorio{
+  color: gray;
+  font-size: 20px;
+  position: relative;
+  left: 25%;
  }
 
  #acessorio-ver-tudo{
-  position: absolute;
-  top: 340%;
-  left: 45%;
-  border: 1px solid black;
-  text-decoration: none;
+  width: 180px;
   height: 60px;
-  width: 200px;
+  position: absolute;
+  top: 350%;
+  left: 45%;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
+ }
+
+ #rodape{
+  min-height: 50vh;
+  font-family: "Roboto Mono", monospace;
+
+ }
+
+ #redes-sociais{
+  font-size: 15px;
   color: white;
-  background-color: black;
-  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  left: 9.5%;
+  top: 400%;
  }
 
- .acessorios-img{
-  width: 200px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
+ #registrar-email{
+  position: absolute;
+  left: 65%;
+  top: 380%;
  }
 
- #preco1{
-  color: darkgrey;
-  font-family: "Roboto Mono", monospace;
-  position: relative;
-  bottom: 9%;
-  display: flex;
-  justify-content: center;
+ #email{
+  color: white;
+
  }
- #preco2{
-  color: darkgrey;
+
+ #e-mail{
+  width: 260px;
+  height: 40px;
+  background: none;
+  padding: 0% 0% 0% 7%;
+  outline: none;
   font-family: "Roboto Mono", monospace;
-  position: relative;
-  bottom: 9%;
-  display: flex;
-  justify-content: center;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
  }
- #preco3{
-  color: darkgrey;
+
+ #e-mail::placeholder{
   font-family: "Roboto Mono", monospace;
+  font-size: 15px;
   position: relative;
-  bottom: 9%;
-  display: flex;
-  justify-content: center;
+  top: 5%;
+  
+  
+
+}
+
+#enviar{
+  height:40px ;
+  width: 100px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 65%;
+  left: 103%;
+  font-family: "Roboto Mono", monospace;
+  border: none;
+}
+
+#sobrenos{
+  color: white;
+  position: absolute;
+  left: 11%;
+  top: 370%;
+}
+
+#contato{
+  position: absolute;
+  top: 370%;
+  left: 40%;
+  color: white;
+}
+
+#formasdepagamento{
+  color: white;
+  position: absolute;
+  top: 400%;
+  left: 36%;
+}
+
+.contato{
+  color: darkgray;
+  font-size: 12px;
+  
+  
+  text-decoration: none;
+  
+  left: 30%;
+  top: 378%;
+ 
+}
+
+#celular{
+  font-size: 11px;
+  position: absolute;
+  left: 40%;
+  top: 381%;
+  color: darkgray;
+  text-decoration: none;
+}
+
+#telefone{
+  font-size: 11px;
+  position: absolute;
+  left: 40.2%;
+  top: 383.5%;
+  color: darkgray;
+  text-decoration: none;
+}
+
+#emailsonder{
+  position: absolute;
+  left: 39%;
+  bottom: 50%
+}
+
+#texto-sobrenos{
+  color: darkgray;
+  position: absolute;
+  top: 378%;
+  left: 7%;
+  font-size: 10px;
+}
+
+.pagamento{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 407%;
+}
+
+#pix{
+  position: absolute;
+  left: 35%;
+  top: 408%;
+  height: 40px;
+  width: 40px;
+}
+
+  #mastercard{
+    position: absolute;
+  left: 39%;
+  top: 408%;
+  height: 40px;
+  width: 70px;
+  }
+
+  #boleto{
+    position: absolute;
+  left: 45%;
+  top: 408%;
+  height: 40px;
+  width: 70px;
+  }
+
+  #facebook{
+    position: absolute;
+    top: 408%;
+    left: 9.5%;
+    
+    height: 40px;
+    width: 40px;
+  }
+
+  #instagram{
+    position: absolute;
+    top: 407%;
+    left: 12%;
+    
+    height: 55px;
+    width: 55px;
+  }
+  #adicionar-carrinho{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 85.5%;
+  }
+
+  #adicionar-carrinho-img{
+    height: 40px;
+    width: 40px;
+  }
+
+ 
+
+ 
+
+ 
+ html{
+  scroll-behavior: smooth;
  }
+
+
+  
+  
+
  
 
 
