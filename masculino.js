@@ -11,6 +11,8 @@ function todos() {
 
   var calcas = document.querySelector('#calcas')
 
+  var roupas = document.querySelectorAll('.acessorios-img')
+
   negrito.style.fontWeight = 'bold'
   camisas.style.fontWeight = 'normal'
   moletons.style.fontWeight = 'normal'
@@ -18,6 +20,11 @@ function todos() {
   calcas.style.fontWeight = 'normal'
 
   todos.innerHTML = 'Todos'
+
+  roupas.forEach(roupa => {
+    roupa.src =
+      'https://github.com/ronan-X/calculator-/assets/142173292/af4154ac-c83c-4ac8-9a46-0125604fb82e'
+  })
 }
 
 function camisas() {
@@ -139,3 +146,4 @@ function calcas() {
 
   calcas.innerHTML = 'Calças'
 }
+
