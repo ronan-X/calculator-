@@ -139,3 +139,4 @@ function calcas() {
 
   calcas.innerHTML = 'Calças'
 }
+
