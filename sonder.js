@@ -28,6 +28,8 @@ function botaocamisa2() {
     'https://github.com/ronan-X/calculator-/assets/142173292/67e65ce3-d235-4adc-88e5-a8b1d79b9d34'
 }
 
+camisapopular.style.width = '400px'
+
 function botaocamisa3() {
   var camisapopular = document.querySelector('#camisa-popular-imagem')
 
@@ -40,4 +42,3 @@ function drop1() {
 
   descricaoproduto.style.display = 'block'
 }
-
