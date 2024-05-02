@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=TT+Commons+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    min-height: 80vh; /* Definindo a altura mínima para ocupar toda a tela */
+     
+}
+
+#darkmode{
+  outline: none;
+  border: none;
+  border-radius: 50% solid white;
+}
+
+#voltar{
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+}
+
+#voltar-img{
+  height: 40px;
+  width: 40px;
+}
+
+#titulo{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+  position: fixed;
+  top: 5%;
+  left: 55%;
+}
+
+#menu-lateral{
+  
+  border-right: 1px solid black;
+}
+
+.menu-lateral{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 50px;
+  height: 30px;
+  position: relative;
+  left: 8%;
+  font-family: "Roboto Mono", monospace;
+  align-items: center;
+  text-decoration: white;
+  color: black;
+  position: fixed;
+
+}
+
+#div-todos{
+  
+  width: 50px;
+  position: absolute;
+  left: 6.7%;
+  top: 29%;
+  
+  
+}
+
+#todos{
+  
+  color: black;
+  position: relative;
+  left: 9%;
+  
+  
+}
+
+#todos:hover{
+  font-weight: bold;
+  color: black;
+}
+
+#todos:active{
+  font-weight: bold;
+  color: black;
+}
+
+#div-camisas{
+  
+  width: 60px;
+  position: absolute;
+  left: 5%;
+  top: 41%;
+}
+
+#camisas{
+  
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 7.5%;
+}
+
+#camisas:hover{
+  font-weight: bold;
+  color: black;
+}
+
+#camisas:active{
+  font-weight: bold;
+  color: black;
+}
+
+#div-moletons{
+  
+  width: 50px;
+  position: absolute;
+  left: 7.35%;
+  top: 54%;
+}
+
+#colares{
+  
+  color: black;
+  position: relative;
+  left: 9%;
+}
+
+#moletons:hover{
+  font-weight: bold;
+  color: black;
+}
+
+#moletons:active{
+  font-weight: bold;
+  color: black;
+}
+
+#div-bermudas{
+  
+  width: 70px;
+  position: absolute;
+  left: 8%;
+  top: 67%;
+}
+
+#pulseiras{
+  
+  color: black;
+  position: relative;
+  left: 6%;
+}
+
+#bermudas:hover{
+  font-weight: bold;
+  color: black;
+}
+
+#bermudas:active{
+  font-weight: bold;
+  color: black;
+}
+
+#div-calcas{
+    width: 50px;
+  position: absolute;
+  left: 8%;
+  top: 80%;
+}
+
+#brincos{
+  
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 7.65%;
+  
+}
+
+#calcas:hover{
+  font-weight: bold;
+  color: black;
+}
+
+#calcas:active{
+  font-weight: bold;
+  color: black;
+}
+
+#acessorios{
+  
+  width: 1150px;
+  height: 600px;
+  position: relative;
+  position: fixed;
+  background-color: white;
+  left: 20%;
+  top: 20%;
+  overflow-y: scroll;
+  border-left: 1px solid black;
+}
+
+
+
+ .descricao-acessorio{
+  color: darkgrey;
+  position: relative;
+  bottom: 1%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+
+ }
+
+ .acessorios-img{
+  width: 150px;
+  height: 150px;
+ }
+
+ #preco1{
+  color: gray;
+  position: relative;
+  left: 7%;
+  font-family: "Roboto Mono", monospace;
+ }
+
+ 
+
+ 
+
+ #fileira3{
+  display: flex;
+  
+  position:absolute;
+  top: 110%;
+  left: 8%;
+  gap: 20%;
+ }
+
+ #fileira2{
+  display: flex;
+  
+  position:absolute;
+  top: 60%;
+  left: 8%;
+  gap: 20%;
+ }
+
+ #fileira1{
+
+  display: flex;
+  
+  position:absolute;
+  top: 10%;
+  left: 8%;
+  gap: 20%;
+
+ }
+
+ ::-webkit-scrollbar{
+  width: 10px;
+  
+ }
+
+ ::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 10px;
+  
+ }
+
+
+
+
+
+
