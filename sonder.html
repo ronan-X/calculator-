@@ -20,8 +20,11 @@
         <!--Menu-->
         <a href=http://127.0.0.1:5500/masculino.html class="menu" id="bem-vindo">Masculino</a>
         <a href=http://127.0.0.1:5500/feminino.html class="menu" id="catalogo">Feminino</a>
-        <a href="" class="menu" id="acessorios">Acessorios</a>
-        <a href="" class="menu" id="sobre-nos">Sobre-nos</a>
+        <a href="http://127.0.0.1:5500/acessorios.html#" class="menu" id="acessorios">Acessorios</a>
+        <a href="#rodape" class="menu" id="sobre-nos">Sobre-nos</a>
+
+
+        <a href="" id="adicionar-carrinho"><img src="carrinho-removebg-preview.png" alt="" id="adicionar-carrinho-img" ></a>
 
         <!--Lupa-->
 
@@ -53,7 +56,7 @@
 
         <a onclick="fecharaba()" id="fechar-aba">
           <img
-            src="https://github.com/ronan-X/calculator-/assets/142173292/05049be4-2b2e-43b2-ad30-e0e543acc03f"
+            src="https://github.com/ronan-X/calculator-/assets/142173292/d77b56be-e73c-4156-8271-4ece9a7b2190"
             alt=""
             id="fechar-aba-img"
             
@@ -172,13 +175,17 @@
       <h1 id="titulo-colecao">Coleção</h1>
       <div id="todossdrops">
         <div id="div-drop1" onmouseover="drop1()">
-          <div id="descricao-drop1"><h1 id="drop1">Drop1</h1></div>
+          <img src="https://github.com/ronan-X/calculator-/assets/142173292/2c01e695-5c44-4c6a-bd10-e48237017f90" alt="" id="drop1-img">
+          <div id="descricao-drop1">
+            <h1 id="drop1">Drop1</h1></div>
         </div>
 
         <div class="div-drop2" class="drop23">
+          <img src="https://github.com/ronan-X/calculator-/assets/142173292/2c01e695-5c44-4c6a-bd10-e48237017f90" alt="" id="drop2-high">
           <div id="descricao-drop2"><h1 id="drop2">Drop2</h1></div>
         </div>
         <div class="div-drop3" class="drop23">
+          <img src="https://github.com/ronan-X/calculator-/assets/142173292/2c01e695-5c44-4c6a-bd10-e48237017f90" alt="" id="drop3-high">
           <div id="descricao-drop3"><h1 id="drop3">Drop3</h1></div>
         </div>
       </div>
@@ -198,7 +205,7 @@
         <h6 id="descricao-acessorio1" class="descricao-acessorio">
           Descrição do produto
         </h6>
-        <h5 id="preco1">R$100,00</h5>
+        <h5 id="preco1" class="preco-acessorio">R$100,00</h5>
       </div>
       <div id="acessorio2">
         <a href="" class="acessorios-img"
@@ -211,7 +218,7 @@
         <h6 id="descricao-acessorio2" class="descricao-acessorio">
           Descrição do produto
         </h6>
-        <h5 id="preco2">R$100,00</h5>
+        <h5 id="preco2" class="preco-acessorio">R$100,00</h5>
       </div>
       <div id="acessorio3" class="acessorios">
         <a href=""
@@ -224,14 +231,46 @@
         <h6 id="descricao-acessorio3" class="descricao-acessorio">
           Descrição do produto
         </h6>
-        <h5 id="preco3">R$100,00</h5>
+        <h5 id="preco3" class="preco-acessorio">R$100,00</h5>
       </div>
 
-      <a href="" id="acessorio-ver-tudo">Ver tudo</a>
+      <a href="http://127.0.0.1:5500/acessorios.html#" id="acessorio-ver-tudo">Ver tudo</a>
     </div>
 
-    <div id="rodape"></div>
+    <div id="rodape">
+      <div>
+        <h4 id="redes-sociais">Redes sociais</h4>
+        <a href=""><img src="https://github.com/ronan-X/calculator-/assets/142173292/23c2a58b-3924-4fdd-af8a-170eefb97be3" alt="" id="facebook"></a>
+        <a href=""><img src="https://github.com/ronan-X/calculator-/assets/142173292/a7da91df-b5fc-462e-9bc2-1063200a5ed9" alt="" id="instagram"></a>
+
+        </div>
+        <div id="registrar-email">
+        <h3 id="email">Acompanhar nossas novidades</h3>
+        <input type="email" name="email" id="e-mail" placeholder="E-MAIL">
+        <input type="submit" value="Cadastrar" id="enviar">
+      </div>
+      <div id="sobrenos-div">
+      <h4 id="sobrenos">Sobre nós</h4>
+
+      <a id="texto-sobrenos">O streetwear é um estilo urbano que mistura <br> influências do hip-hop, skate e arte de rua. <br> Ele é conhecido por camisetas gráficas, <br> moletons oversized, calças cargo e tênis descolados. <br> Além de ser uma moda descontraída e ousada, <br> o streetwear é uma forma de expressão individual <br> e cultural, celebrando a diversidade e a criatividade  <br> nas ruas.</a>
+      </div>
+
+      <div>
+        <h4 id="contato">Contato</h4>
+        <a href="" id="emailsonder" class="contato">Sonder@gmail.com</a>
+        <a href=""  id="celular">3199189-3333</a>
+        <a href="" id="telefone">319875-2323</a>
+      </div>
+
+      <div>
+        <h4 id="formasdepagamento">Formas de pagamento</h4>
+        <img src="https://github.com/ronan-X/calculator-/assets/142173292/9ebeb27a-e47f-41f7-8171-afd357166781" alt="" id="pix" class="pagamento">
+        <img src="https://github.com/ronan-X/calculator-/assets/142173292/3e2b6f9c-eba0-4c14-9a30-5a07b0befcd0" alt="" id="mastercard" class="pagamento">
+        <img src="https://github.com/ronan-X/calculator-/assets/142173292/18dcf9f2-c61d-4cca-af9b-ac290201d121" alt="" class="pagamento" id="boleto">
+      </div>
+    </div>
   </body>
   <script src="sonder.js"></script>
 </html>
+
 
