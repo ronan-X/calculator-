@@ -16,3 +16,7 @@ https://github.com/ronan-X/calculator-/assets/142173292/de6700d4-e8ec-4292-9296-
 
 
 https://github.com/ronan-X/calculator-/assets/142173292/af5397b1-dc9d-47d3-a7e0-9537d493518c
+
+![Screenshot_20240502_141309_Chrome](https://github.com/ronan-X/calculator-/assets/150301729/64155ef0-2919-43be-9db8-58baadebabf8)
+
+![Screenshot_20240502_141319_Chrome](https://github.com/ronan-X/calculator-/assets/150301729/33479689-5211-48bd-a50a-66df84c590f8)
