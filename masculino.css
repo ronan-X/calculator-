@@ -219,7 +219,7 @@ body {
  .descricao-acessorio{
   color: darkgrey;
   position: relative;
-  bottom: 8%;
+  bottom: 1%;
   display: flex;
   justify-content: center;
   font-family: "Roboto Mono", monospace;
@@ -234,7 +234,7 @@ body {
  #preco1{
   color: gray;
   position: relative;
-  left: 4%;
+  left: 7%;
   font-family: "Roboto Mono", monospace;
  }
 
@@ -281,6 +281,11 @@ body {
   border-radius: 10px;
   
  }
+
+
+
+
+
 
 
 
