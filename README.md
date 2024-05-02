@@ -12,3 +12,7 @@ ulator-/assets/142173292/e1e2aa69-66a8-40af-998d-0eecaf950217)
 ![lupa_preta-removebg-preview](https://github.com/ronan-X/calculator-/assets/142173292/626122e2-d8ff-4914-b92d-f3fb420e374c)
 ![perfil](https://github.com/ronan-X/calculator-/assets/142173292/e061eca8-fad0-4a7b-ac9a-a8598e64ab6e)
 
+https://github.com/ronan-X/calculator-/assets/142173292/de6700d4-e8ec-4292-9296-6f986f76b8c8
+
+
+https://github.com/ronan-X/calculator-/assets/142173292/af5397b1-dc9d-47d3-a7e0-9537d493518c
